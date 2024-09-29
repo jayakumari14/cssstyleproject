@@ -70,8 +70,14 @@ section .hero_Text1 {
   border-radius: 100px;
   background-color: #000;
   border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.play i {
+  color: #fff;
+  font-size: 40px;
+}
 section .hero_Text2 {
   /* background-color: red; */
   display: flex;
