@@ -42,7 +42,7 @@ section {
   padding: 60px 100px;
 }
 section .hero_Text1 {
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -58,4 +58,34 @@ section .hero_Text1 {
   width: 400px;
   background-color: #000;
   border-radius: 100px;
+  margin-top: 20px;
+  background-image: url(https://images.unsplash.com/photo-1726082132343-e4dc7400ee44?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  /* background-position: right; */
+  padding: 10px;
+}
+.video .play {
+  height: 100%;
+  width: 80px;
+  border-radius: 100px;
+  background-color: #000;
+  border: 2px solid white;
+}
+
+section .hero_Text2 {
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.hero_Text2 h1 {
+  font-size: 140px;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 150px;
+}
+.hero_Text2 p {
+  font-size: 40px;
+  width: 700px;
+  font-weight: 500;
 }
