@@ -5,3 +5,5 @@ function abcd(){
     console.log(a);
     
 }
+
+let arr:[number,string]=[22,"hello"]
